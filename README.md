@@ -17,6 +17,11 @@ Run the script to observe the impact of quantization and QAS on the gradient dyn
 
 ---
 
+![image](https://github.com/user-attachments/assets/e372f18b-a148-4af8-b1a8-3b01b7759444)
+![image](https://github.com/user-attachments/assets/0d59a6e4-eed3-4884-87f2-be75c4cf645b)
+
+
+
 ### 2. Memory Cost Simulation for Sparse vs. Full Updates
 
 **Description:**  
@@ -30,6 +35,10 @@ This code estimates and visualizes memory costs across 5 network layers, compari
 
 **Usage:**  
 Execute this script to evaluate the benefits of a sparse update strategy in reducing memory usage, especially in resource-constrained environments.
+![image](https://github.com/user-attachments/assets/e4018cbb-762c-4a63-8595-fcf830383b92)
+
+
+
 
 ---
 
@@ -50,6 +59,11 @@ This snippet compares the outputs of a linear layer under three conditions:
 
 **Usage:**  
 Run the script to visually and numerically compare the behavior of fake and real quantization. This is valuable for validating quantization techniques in model deployment.
+![image](https://github.com/user-attachments/assets/0d59a6e4-eed3-4884-87f2-be75c4cf645b)
+
+
+
+
 
 ---
 
@@ -67,6 +81,7 @@ This code performs an exhaustive search to determine the optimal combination of 
 
 **Usage:**  
 This script is ideal for experiments in resource-constrained training, where selective layer updates can yield the best performance under strict memory limitations.
+![image](https://github.com/user-attachments/assets/423f6cfb-af7a-4a65-8f46-075de2f1812a)
 
 ---
 
@@ -87,6 +102,8 @@ The final script compares two strategies for managing memory during the backprop
 Use this script to evaluate and visualize the benefits of an in-place memory optimization strategy during backpropagation, aiding in the design of more memory-efficient neural network training routines.
 
 Below is a GitHub-style description for the provided code:
+![image](https://github.com/user-attachments/assets/f66760dc-7c1a-4248-ab19-9d9006dc57f0)
+
 
 ---
 
@@ -114,13 +131,8 @@ This Python script generates a grouped bar chart that visualizes the accuracy re
 1. Ensure that you have Python installed along with the necessary libraries (`numpy` and `matplotlib`).
 2. Run the script in your preferred Python environment. The script will open a window displaying the grouped bar chart.
 
-**Example Command:**
-```bash
-python plot_optimizer_comparison.py
-```
+![image](https://github.com/user-attachments/assets/80d9d19b-95b7-4a42-ad20-f27b7a644bc7)
 
-**File Structure:**
-- `plot_optimizer_comparison.py` — The main Python script containing the code to generate the plot.
 
 
 
