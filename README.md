@@ -86,3 +86,41 @@ The final script compares two strategies for managing memory during the backprop
 **Usage:**  
 Use this script to evaluate and visualize the benefits of an in-place memory optimization strategy during backpropagation, aiding in the design of more memory-efficient neural network training routines.
 
+Below is a GitHub-style description for the provided code:
+
+---
+
+### Grouped Bar Chart for Optimizer Accuracy Comparison on MCUNet-5FPS
+
+**Description:**  
+This Python script generates a grouped bar chart that visualizes the accuracy results across various datasets for different optimization strategies applied during fine-tuning of the MCUNet-5FPS model. The data in this plot is based on the performance of updating real quantized graphs (int8) compared to the floating-point (fp32) baseline. The chart compares the following methods:
+- **fp32 SGD-M**
+- **int8 SGD-M**
+- **Adam**
+- **LARS**
+- **SGD-M+QAS**
+
+**Key Features:**
+- **Data Visualization:**  
+  Displays the accuracy percentages for each optimizer across nine different datasets (e.g., "Avg Acc.", "Cars", "CF10", "CF100", "CUB", "Flowers", "Food", "Pets", "VWW").
+  
+- **Grouped Bar Chart:**  
+  Uses a grouped bar chart to facilitate side-by-side comparison of the optimizers, allowing users to quickly identify performance differences.
+
+- **Customization and Clarity:**  
+  The script includes labels for the x-axis, y-axis, a chart title, a legend, and grid lines for improved readability.
+
+**Usage:**  
+1. Ensure that you have Python installed along with the necessary libraries (`numpy` and `matplotlib`).
+2. Run the script in your preferred Python environment. The script will open a window displaying the grouped bar chart.
+
+**Example Command:**
+```bash
+python plot_optimizer_comparison.py
+```
+
+**File Structure:**
+- `plot_optimizer_comparison.py` — The main Python script containing the code to generate the plot.
+
+
+
